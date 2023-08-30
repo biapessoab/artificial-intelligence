@@ -1,0 +1,13 @@
+Instancia,Alternativo,Bar,Sex/Sab,Fome,Cliente,Preco,Chuva,Res,Tipo,Tempo,Conclusao
+X1,Sim,Nao,Nao,Sim,Alguns,RRR,Nao,Sim,Francas,0-10,Sim
+x2,Sim,Nao,Nao,Sim,Cheio,R,Nao,Nao,Tailandas,30-60,Nao
+x3,Nao,Sim,Nao,Nao,Alguns,R,Nao,Nao,Hamburger,0-10,Sim
+x4,Sim,Nao,Sim,Sim,Cheio,R,Sim,Nao,Tailandas,out/30,Sim
+X5,Sim,Nao,Sim,Nao,Cheio,RRR,Nao,Sim,Francas,>60,Nao
+X6,Nao,Sim,Nao,Sim,Alguns,RR,Sim,Sim,Italiano,0-10,Sim
+X7,Nao,Sim,Nao,Nao,Nenhum,R,Sim,Nao,Hamburger,0-10,Nao
+X8,Nao,Nao,Nao,Sim,Alguns,RR,Sim,Sim,Tailandas,0-10,Sim
+X9,Nao,Sim,Sim,Nao,Cheio,R,Sim,Nao,Hamburger,>60,Nao
+X10,Sim,Sim,Sim,Sim,Cheio,RRR,Nao,Sim,Italiano,out/30,Nao
+X11,Nao,Nao,Nao,Nao,Nenhum,R,Nao,Nao,Tailandas,0-10,Nao
+X12,Sim,Sim,Sim,Sim,Cheio,R,Nao,Nao,Hamburger,30-60,Sim
