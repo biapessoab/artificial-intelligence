@@ -1,4 +1,4 @@
-Instancia,Alternativo,Bar,Sex/Sab,Fome,Cliente,Preco,Chuva,Res,Tipo,Tempo,Conclusao
+Instancia,Alternativo,Bar,Sex/Sab,Fome,Cliente,Preco,Chuva,Res,Tipo,Tempo,Decision
 X1,Sim,Nao,Nao,Sim,Alguns,RRR,Nao,Sim,Francas,0-10,Sim
 x2,Sim,Nao,Nao,Sim,Cheio,R,Nao,Nao,Tailandas,30-60,Nao
 x3,Nao,Sim,Nao,Nao,Alguns,R,Nao,Nao,Hamburger,0-10,Sim
