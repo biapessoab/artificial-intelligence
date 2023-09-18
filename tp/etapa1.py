@@ -8,7 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import ConfusionMatrixDisplay, accuracy_score, confusion_matrix, classification_report
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from yellowbrick.classifier import ConfusionMatrix
 from sklearn import tree
 
@@ -46,19 +46,20 @@ onehotencoder_data = ColumnTransformer(transformers=[('OneHot', OneHotEncoder(),
 X_prev= onehotencoder_data.fit_transform(X)
 
 # Holdout
-X_treino, X_teste, y_treino, y_teste = train_test_split(X, Y, test_size = 0.20, random_state = 23)
+X_treino, X_teste, y_treino, y_teste = train_test_split(X_prev, Y, test_size = 0.20, random_state = 23)
 
 # Decision tree
 model = DecisionTreeClassifier(criterion='entropy')
 Y = model.fit(X_treino, y_treino)
 prevision = model.predict(X_teste)
-
 confusion_matrix(y_teste, prevision)
 
 cm = ConfusionMatrix(model)
 cm.fit(X_treino, y_treino)
 cm.score(X_teste, y_teste)
 
+print(classification_report(y_teste, prevision))
+print(accuracy_score(y_teste, prevision))
 
 # Plotando a árvore
 tree.plot_tree(Y)
